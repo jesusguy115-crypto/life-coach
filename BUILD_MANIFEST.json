@@ -1,0 +1,52 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "76733bdcce40ee9c58a5c75440740dfe155b6164794c26635844f1a509087e1b",
+    "references/capabilities/attention.md": "7e6238cfcfcfc3f544bc87ffb4fe299de75b54140ebda5b95e48bffb69488c70",
+    "references/capabilities/competition.md": "17a22e4d366e88f34cdd125fdc9b556bb99ca5cd19079df72f792d9488576407",
+    "references/capabilities/future.md": "f6bd2e51269430d13b2b4fa98acc7ffae10b3eb72857bfe3cdce15251b72d064",
+    "references/capabilities/habit.md": "a5ba79c515af8897bb09db4c8620f49793570eaba601d2af15ca414a02fe2931",
+    "references/capabilities/learning.md": "8fa036a24edb3230a534347b1c9ea4aabd121ef69ba7083549ff485f9a811389",
+    "references/capabilities/motives.md": "b8022d5be62a3f9576bdee9de9696b66b11c04583e125b6c825f15d8fe67eec9",
+    "references/capabilities/observe.md": "d61258b1c33afd83a2b65e269351dcefd6f130dead9e90a7df2eda658b113ad7",
+    "references/capability-index.md": "8f34db215753d82c90c40dc02e12cc8fdf10f05dea1d65865249a22a9d680ded",
+    "references/cheatsheet.md": "5801c4535ef743a711c3849acd6d58f2e425935202f1c8ee21725525ef6d5819",
+    "references/glossary.md": "91c8256b7310b9e7cd5b494c0482d60c241cf78a04c9940f3db95eeb586a85ff",
+    "references/overview.md": "821727f6d79c2970407a1c441268e1c802088e338fe68dac0d06a815f92a6cc8",
+    "resources/assets/advice-card.html": "c4c427440aac2805ee35a5f2078e2ec90184eda4e9d1ec3494c90c4ff797964e",
+    "resources/evidence/attention.md": "ad377ad2a98384eb647af69a9f273b5ee93cccebc27b4e8c1eaec224dc8f4380",
+    "resources/evidence/competition.md": "1cdd8e31363db2bc83cbd843c0fa0d513aec4408e0026911c77b2ed969bd001e",
+    "resources/evidence/future.md": "3362986e28e3c7a9b13c5f253cac03872cb74696faa79771c7ef0196d99900ca",
+    "resources/evidence/habit.md": "e215ac3c30a80de12310d60b2cd12b3d52075815ccc9bcb2c24ecae49fb349b8",
+    "resources/evidence/learning.md": "6259c1646f4bf447bf983374ea82d4723ce4ae4eda032cddb57f79dcf7c7995b",
+    "resources/evidence/motives.md": "c744a8430fb27a480910c33715cc557e0bd880f794452a53d8eaed9222f21de1",
+    "resources/evidence/observe.md": "1cb7b1ad73ff1a2f731b2e5cf214ee023771e641a6ad0f9fd0bda1fc6c6c4923",
+    "resources/evidence/source-appendix.md": "3dc4c1aa8c0f5690dd8333dd6b464bad2fb4c7d5ceaa6d59f3bd2f4279e6b931",
+    "resources/references/book-to-help.md": "c60f52b8d8c515dc8c76f81c89053ee926d0ce3fff6735dc00bce6dc1138d641",
+    "resources/references/card.md": "4522fe1a08bde4185de679a1519994b970b77261669cf44866c57dca0c9d918d",
+    "resources/references/cases.json": "ab0d8c80fa62de29abf82caeb06bd4c09792eb1a01ae5048eefa31e9aae083c6",
+    "resources/references/people.json": "2381106bfc34dc2dcca9eddadc54017b6a5b3c855da288f7955314b25e69d9d9",
+    "resources/references/welcome.md": "63ce698a344a160175c43390950d816cb6290dad28a90942c13e2fee09dc74bc",
+    "resources/scripts/render_card.py": "20845a673671f4d8c61b510a8bcc4bb3afd7287295c6f13645a276b6005fe2a3"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.inner-game",
+  "bundle_sha256": "1c236b930db37a89fcf76faaf4e50eab59853e62bcdfc7558cbe772271de0a6d",
+  "variant": "single",
+  "run_id": "run-20261012-204739-66675c",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 2,
+    "promoted_count": 0,
+    "capability_count": 7,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "verified_on": "2026-10-12",
+  "scope": "已核验的公开案例库，非所有读者的穷尽名单。自述与报道提供设计线索，不证明因果或普遍疗效；adaptation 为本 skill 的转化。",
+  "sources": {
+    "gates": "https://www.gatesnotes.com/books/all-book-reviews/reader/the_inner_game_of_tennis",
+    "ballard": "https://www.si.com/nba/2016/05/26/steve-kerr-pete-carroll-nba-playoffs-inner-game-tennis-book",
+    "ballard_reprint": "https://coachingclipboard.org/2016/06/08/the-book-that-shaped-pete-carroll-steve-kerr/",
+    "patrick": "https://tim.blog/2018/12/24/the-tim-ferriss-show-patrick-collison/",
+    "elitch": "https://tim.blog/2018/11/28/the-tim-ferriss-show-transcripts-dave-elitch/",
+    "jackson": "https://usctrojans.com/sports/football/roster/lawrence-jackson/1727",
+    "lewis": "https://ritholtz.com/2020/05/transcript-michael-lewis/",
+    "publisher": "https://www.penguinrandomhouseretail.com/book/?isbn=9780593732038",
+    "gates_fallback": "https://www.gatesnotes.com/meet-bill/games-i-love/reader"
+  },
+  "cases": [
+    {
+      "person": "Steve Kerr / 史蒂夫-科尔",
+      "evidence": "记者采访报道；原文正文访问受限，交叉使用注明作者、出处的全文转载。",
+      "source_ids": [
+        "ballard",
+        "ballard_reprint"
+      ],
+      "documented_experience": "替补上场时承受发挥压力；反复读书，练习减少自我评判。",
+      "use_when": "熟悉的动作在被评价、争取机会时变得僵硬。",
+      "adaptation": "先确认平常确实能做，再选低压力的一小段熟悉任务，减少同时下达的技术指令，观察一个具体对象。完成后再复盘。",
+      "limits": "不能推断每次投丢都是心理干扰；不能用冠军或关键进球证明读书效果。"
+    },
+    {
+      "person": "Bill Gates / 比尔·盖茨",
+      "evidence": "本人书评，2022-11-21。",
+      "source_ids": [
+        "gates",
+        "gates_fallback"
+      ],
+      "documented_experience": "回忆网球失误后责骂自己会影响下一分；也将建设性、客观反馈用于工作。他举出团队交付软件后发现漏洞的事件：肯定主动报告，追查漏检原因及预防方法。",
+      "use_when": "出错后从具体问题滑向否定整个人，或带团队时只剩责备。",
+      "adaptation": "把评价改写成可核对的事实，先处理当下损失，再选择一个防止重演的流程改动；保留责任与纠正。",
+      "limits": "这是他自述的影响，不是对某套复盘模板的实验验证。"
+    },
+    {
+      "person": "Patrick Collison / 帕特里克·科里森",
+      "evidence": "本人在 Tim Ferriss 访谈中的推荐与解释，2018-12-24。",
+      "source_ids": [
+        "patrick"
+      ],
+      "documented_experience": "讨论决策与修正时提到本书，认同观察真实发生的情况并训练反应；没有给出读书前后量化改善。",
+      "use_when": "反复思考却不获得新信息，且下一步可逆、成本可承受。",
+      "adaptation": "把待验证的猜想变成一次小尝试，约定看什么反馈，再决定保留或修正。",
+      "limits": "不是 Nick Collison；不能把 Stripe 成功归因于本书，或用小实验替代重大不可逆决定的调查。"
+    },
+    {
+      "person": "Dave Elitch / 戴夫·埃利奇",
+      "evidence": "鼓手本人访谈，2018-11-28。",
+      "source_ids": [
+        "elitch"
+      ],
+      "documented_experience": "不是网球读者，却经常送这本书；认为它把抽象的禅与执行体验讲得具体。访谈涉及批判性自我、身体执行及演奏中的注意力，也强调不能命令自己进入心流。",
+      "use_when": "已经练过的录制或表演被持续自我监听、挑错打断。",
+      "adaptation": "先完成一小段熟悉内容，把注意力放在声音、节奏或要传达的意思之一；结束后再选一个技术问题练习。",
+      "limits": "音乐经验不能自动推广所有领域；新手仍需技术学习，没有一键心流。"
+    },
+    {
+      "person": "Lawrence Jackson / 劳伦斯·杰克逊",
+      "evidence": "USC 官方球员资料收录本人回忆。",
+      "source_ids": [
+        "jackson"
+      ],
+      "documented_experience": "擒杀数据低迷时获 Pete Carroll 推荐，起初搁置，后来读书。他说书帮助自己放松、平静，减少评判并信任自己。",
+      "use_when": "被结果数字占据注意力，忽略眼前可以完成的职责。",
+      "adaptation": "保留结果目标，但执行时只选下一回合的一项可控任务，结束后观察是否完成。",
+      "limits": "不将之后数据回升归因于书，不淡化职责、战术或技术要求。"
+    },
+    {
+      "person": "Pete Carroll / 皮特·卡罗尔",
+      "evidence": "记者采访报道；另有新版序言署名。",
+      "source_ids": [
+        "ballard",
+        "ballard_reprint",
+        "publisher"
+      ],
+      "documented_experience": "将书中思想用于执教，而不要求球员先掌握术语。",
+      "use_when": "用户指导别人时反复讲道理、加指令，对方反而更难执行。",
+      "adaptation": "减少说教，问对方刚才观察到什么，再据此提供一个必要反馈；复杂或危险任务保留明确指令。",
+      "limits": "不能推出教练可以没有领域知识，或团队胜利由一本书造成。"
+    },
+    {
+      "person": "Michael Lewis / 迈克尔·刘易斯",
+      "evidence": "本人访谈，2020-05；涉及其女儿接受教练辅导。",
+      "source_ids": [
+        "lewis"
+      ],
+      "documented_experience": "为17岁的垒球运动员女儿聘请承接 Inner Game 思想的教练。他观察到这种辅导有助于压力下放松发挥。",
+      "use_when": "为孩子、学生或队友提供支持，想知道如何减少额外评价压力。",
+      "adaptation": "先征求对方愿意接受哪种帮助，让其描述体验，再共同选一个注意点；不把自己的期待写成对方的目标。",
+      "limits": "女儿接受辅导不等于仅阅读本书；这也不是临床或教育效果的对照证据。"
+    },
+    {
+      "person": "Bruce Fraser / 布鲁斯·弗雷泽",
+      "evidence": "同一篇记者报道中的反例。",
+      "source_ids": [
+        "ballard",
+        "ballard_reprint"
+      ],
+      "documented_experience": "读过，但共鸣不如科尔；不觉得自己经常过度思考。",
+      "use_when": "用户没有明显内在干扰，或试过后没有帮助。",
+      "adaptation": "停止硬套模型，重新检查技能、条件和任务设计；容许该方法对这个人不合适。",
+      "limits": "不能把无效归结为用户不够相信自己。"
+    }
+  ],
+  "endorsements_with_limited_outcome_evidence": [
+    {
+      "person": "Chip Engelland",
+      "known": "读过并向球员推荐。",
+      "source_ids": [
+        "ballard_reprint"
+      ]
+    },
+    {
+      "person": "Grant Hill",
+      "known": "据 Engelland 称常参考本书。",
+      "source_ids": [
+        "ballard_reprint"
+      ]
+    },
+    {
+      "person": "Sam Presti",
+      "known": "反复阅读并摘录给员工。",
+      "source_ids": [
+        "ballard_reprint"
+      ]
+    },
+    {
+      "person": "Jimmy Rollins",
+      "known": "报道转引其正面评价；MVP归因不可验证。",
+      "source_ids": [
+        "ballard_reprint"
+      ]
+    },
+    {
+      "person": "Paul Westhead",
+      "known": "报道列为喜爱的书。",
+      "source_ids": [
+        "ballard_reprint"
+      ]
+    },
+    {
+      "person": "Phil Jackson",
+      "known": "报道提及支持；未核实具体受益过程。",
+      "source_ids": [
+        "ballard_reprint"
+      ]
+    },
+    {
+      "person": "Billie Jean King",
+      "known": "出版社收录高度推荐；无具体前后过程。",
+      "source_ids": [
+        "publisher"
+      ]
+    },
+    {
+      "person": "Al Gore",
+      "known": "出版社收录将书用于团队专注的评价。",
+      "source_ids": [
+        "publisher"
+      ]
+    },
+    {
+      "person": "Itzhak Perlman",
+      "known": "出版社收录对年轻音乐人的推荐。",
+      "source_ids": [
+        "publisher"
+      ]
+    }
+  ],
+  "misattribution_guards": [
+    {
+      "people": [
+        "Stephen Curry",
+        "Klay Thompson"
+      ],
+      "status": "被用作例子，不能据此说他们读过或推荐过本书。"
+    },
+    {
+      "people": [
+        "Harrison Barnes",
+        "Nick Collison"
+      ],
+      "status": "收到推荐或获赠，不足以确认已读及受益。"
+    },
+    {
+      "people": [
+        "Bob Myers",
+        "Kirk Lacob",
+        "Jud Buechler"
+      ],
+      "status": "被报道提及，不足以作为本人读书受益证据。"
+    }
+  ],
+  "source_access_note": "2026-10-12再查：Gates书评深层URL在检索工具中暂不可读；官网Games I love reader索引仍包含2022-11-21同文全文（The best guide to getting out of your own way），可作原站备用。不要把推荐误归因于该页的其他文章。"
+}
