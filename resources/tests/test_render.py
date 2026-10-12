@@ -27,6 +27,38 @@ class ValidationTests(unittest.TestCase):
             with self.subTest(value=value), self.assertRaises(ValueError):
                 validate(value)
 
+    def test_experience_is_independently_optional(self):
+        raw = sample()
+        raw.pop('experience')
+        self.assertEqual(validate(raw)['experience'], '')
+        self.assertEqual(validate(dict(raw, experience='  '))['experience'], '')
+        self.assertEqual(validate(dict(raw, experience='已核验案例'))['experience'], '已核验案例')
+        for invalid in [None, 12, [], '长' * 221]:
+            with self.subTest(value=invalid), self.assertRaises(ValueError):
+                validate(dict(raw, experience=invalid))
+
+    def test_card_without_experience_omits_attribution_block(self):
+        with tempfile.TemporaryDirectory() as folder:
+            p = Path(folder)
+            for experience in [None, '<b>人物经历</b>']:
+                raw = sample()
+                if experience is None:
+                    raw.pop('experience')
+                    raw['sources'] = []
+                else:
+                    raw['experience'] = experience
+                (p/'input.json').write_text(json.dumps(raw), encoding='utf-8')
+                result = subprocess.run([sys.executable, str(ROOT/'scripts/render_card.py'), str(p/'input.json'), '--out', str(p/'out')], capture_output=True, text=True)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                paths = json.loads(result.stdout)
+                page = Path(paths['html']).read_text()
+                if experience is None:
+                    self.assertNotIn('<p>相关经历', page)
+                    self.assertEqual(json.loads(Path(paths['json']).read_text())['experience'], '')
+                else:
+                    self.assertIn('<p>相关经历 · &lt;b&gt;人物经历&lt;/b&gt;</p>', page)
+                self.assertNotIn('__EXPERIENCEBLOCK__', page)
+
     def test_quote_identity_and_domain(self):
         for edit in [dict(quote_id='invented'), dict(primary='observe'), dict(quote='编造金句'), dict(original='fake'), dict(locator='假页码')]:
             with self.subTest(edit=edit), self.assertRaises(ValueError):

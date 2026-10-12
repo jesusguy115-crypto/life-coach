@@ -239,5 +239,50 @@
       "直接给两套完整练习",
       "推断行为是寻求认可"
     ]
+  },
+  {
+    "id": "on-demand-default",
+    "prompt": "我练习时不错，一到正式场合就越想越乱。给我一个能试的小练习。",
+    "expected_primary": "learning",
+    "acceptable_alt": [
+      "attention"
+    ],
+    "expected_behavior": [
+      "直接辅导并给一个尝试",
+      "不自动附读者经历、卡片或出卡询问"
+    ],
+    "failure": [
+      "附名人经历",
+      "自动生成卡片",
+      "解释本次为什么没出卡"
+    ]
+  },
+  {
+    "id": "on-demand-card-only",
+    "prompt": "把刚才的习惯改变建议做成一张卡，不需要人物故事。",
+    "expected_primary": "habit",
+    "acceptable_alt": [],
+    "expected_behavior": [
+      "复用建议和已核验金句",
+      "省略 experience，卡面无相关经历空标题"
+    ],
+    "failure": [
+      "为卡片强塞人物故事",
+      "临时搜索人物资料"
+    ]
+  },
+  {
+    "id": "on-demand-experience-only",
+    "prompt": "有没有读者谈过这本书对自己的影响？给我一个有来源的例子，不用做卡。",
+    "expected_primary": "reference",
+    "acceptable_alt": [],
+    "expected_behavior": [
+      "使用核验案例并保留事实边界和来源",
+      "不出卡"
+    ],
+    "failure": [
+      "把推荐直接说成受益",
+      "把读者经历请求当作出卡请求"
+    ]
   }
 ]

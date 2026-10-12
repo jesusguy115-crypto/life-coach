@@ -31,11 +31,15 @@ def validate(raw):
     data.update(primary=primary, quote_id=quote_id, quote_kind=match['quote_kind'],
                 source_id=match['source_id'], verification=match['verification'])
     data['closing'] = ''  # Legacy field, never displayed.
-    for key, limit in dict(title=60, situation=200, basis=300, method=120, experience=220).items():
+    for key, limit in dict(title=60, situation=200, basis=300, method=120).items():
         value = raw.get(key)
         if not isinstance(value, str) or not value.strip() or len(value) > limit:
             raise ValueError(f'{key} 需要 1–{limit} 字符的文本')
         data[key] = value.strip()
+    experience = raw.get('experience', '')
+    if not isinstance(experience, str) or len(experience) > 220:
+        raise ValueError('experience 需要最多220字符的文本，可省略或留空')
+    data['experience'] = experience.strip()
     advice = raw.get('advice')
     if not isinstance(advice, list) or not 1 <= len(advice) <= 3:
         raise ValueError('advice 需要 1–3 条建议')
@@ -80,6 +84,7 @@ def main():
                       EXAMPLE='<span>演示情境</span>' if data['example'] else '',
                       ADVICE=''.join('<p>' + esc(s) + '</p>' for s in data['advice']),
                       SOURCES=''.join('<li><a target="_blank" rel="noopener noreferrer" href="' + esc(s['url'], quote=True) + '">' + esc(s['label']) + '</a></li>' for s in data['sources']),
+                      EXPERIENCEBLOCK=('<p>相关经历 · ' + esc(data['experience']) + '</p>') if data['experience'] else '',
                       DATA=encoded)
         result = re.sub(r'__([A-Z]+)__', lambda m: values[m[1]], template)
         args.out.mkdir(parents=True, exist_ok=True)

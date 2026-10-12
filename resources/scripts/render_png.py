@@ -86,7 +86,8 @@ def render_png(data, destination, font_path=None):
     block('“' + data['quote'] + '”', 40, accent)
     block('《身心合一的奇迹力量》 · W. Timothy Gallwey', 24, muted)
     block(data['locator'] + ' · ' + data['translation'], 22, muted)
-    block('相关经历 · ' + data['experience'], 24, muted)
+    if data.get('experience'):
+        block('相关经历 · ' + data['experience'], 24, muted)
     # Full evidence and source URLs remain in the companion JSON and HTML.
     block('AI 辅助建议', 21, muted, 0)
     canvas = Image.new('RGB', (width, y + 65), '#fcf9f1')
