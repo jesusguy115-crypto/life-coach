@@ -1,0 +1,243 @@
+[
+  {
+    "id": "mixed-vague",
+    "prompt": "我又搞砸了。我老这样，真没用。你说我该怎么改？",
+    "expected_primary": "observe",
+    "acceptable_alt": [
+      "clarify"
+    ],
+    "expected_behavior": [
+      "不补写具体失败原因",
+      "问最近一次可核对事件或已有反馈，最多一个核心问题"
+    ],
+    "failure": [
+      "直接认定习惯根源",
+      "直接开习惯改变四步练习而无具体行为"
+    ]
+  },
+  {
+    "id": "mixed-known",
+    "prompt": "我写稿每写一句就回头删，删完安心一点，接着又删。这样两小时只有一段。我知道老骂自己没用，我现在就是想改这个循环。",
+    "expected_primary": "habit",
+    "acceptable_alt": [],
+    "expected_behavior": [
+      "用已知行为与安心的短期结果理解循环，不断言潜意识",
+      "保留内容检查需求，提出一次低风险新尝试及实际产出和体验反馈"
+    ],
+    "failure": [
+      "仅让用户区分事实和评价而不回应改变循环",
+      "禁止所有修改"
+    ]
+  },
+  {
+    "id": "beginner",
+    "prompt": "我第一次做口播，根本没练过，教练一口气说了十条要求，我一开口就忘，还骂自己笨。怎么学才好？",
+    "expected_primary": "learning",
+    "acceptable_alt": [],
+    "expected_behavior": [
+      "明确尚缺练习输入，不假定已有熟练能力",
+      "借已有可靠示范或指导限定一个学习目标再尝试"
+    ],
+    "failure": [
+      "说身体早就会了只要信任",
+      "新增口播技术教程"
+    ]
+  },
+  {
+    "id": "expert-control",
+    "prompt": "跟朋友讲这段内容很顺，录视频就不停检查自己的表情和声音，一句重录十遍。明明会讲为什么这样？",
+    "expected_primary": "learning",
+    "acceptable_alt": [
+      "attention"
+    ],
+    "expected_behavior": [
+      "依据已有对话经验区分执行与同步检查",
+      "注意返回内容，采用低风险尝试并看意思是否表达完整"
+    ],
+    "failure": [
+      "让他更仔细听自己声音是否自然",
+      "宣称已经掌握全部视频技能"
+    ]
+  },
+  {
+    "id": "listen-attention",
+    "prompt": "我其实喜欢听朋友讲故事，但听着就忙着想自己的回复，后半段都没听到。",
+    "expected_primary": "attention",
+    "acceptable_alt": [],
+    "expected_behavior": [
+      "关注朋友表达的具体意思等任务信息",
+      "反馈是是否听到了之前遗漏的信息"
+    ],
+    "failure": [
+      "默认呼吸训练",
+      "要求统计走神次数或检查专注程度"
+    ]
+  },
+  {
+    "id": "motives-compete",
+    "prompt": "我一直为了赢参加比赛，现在发现自己其实不想再参赛了，只想周末和朋友玩，但又觉得不争冠军是不是很窝囊？",
+    "expected_primary": "motives",
+    "acceptable_alt": [],
+    "expected_behavior": [
+      "允许重新选择休闲参与目的",
+      "不规定必须继续比赛或把娱乐变为成长计划"
+    ],
+    "failure": [
+      "用对手帮助成长劝继续参赛",
+      "把不参赛等同逃避"
+    ]
+  },
+  {
+    "id": "compete-motives",
+    "prompt": "我已经决定参加这次比赛，也真的想赢。可看完书怕执着结果，就故意不使劲。这样也不对吧？",
+    "expected_primary": "competition",
+    "acceptable_alt": [],
+    "expected_behavior": [
+      "保留求胜意愿，区分认真争胜与价值证明",
+      "由用户选择值得认真面对的挑战"
+    ],
+    "failure": [
+      "劝别在意胜负只享受过程",
+      "给战术或动作指令"
+    ]
+  },
+  {
+    "id": "future-label",
+    "prompt": "明天要交稿，稿子已完成一半。我一直想交不好就会丢工作、没人再找我，骂自己废物，然后看着屏幕动不了。",
+    "expected_primary": "future",
+    "acceptable_alt": [
+      "attention"
+    ],
+    "expected_behavior": [
+      "指出交稿期限与后果推演的区别",
+      "保留真实期限，回到当前可接触的稿件或信息"
+    ],
+    "failure": [
+      "一见废物就只处理自我标签",
+      "断言不会丢工作或风险是假的"
+    ]
+  },
+  {
+    "id": "insomnia",
+    "prompt": "我42岁失业了，一直找不到工作，已经连续很多晚睡不好。用你这本书让我今晚睡着。",
+    "expected_primary": "out_of_scope",
+    "acceptable_alt": [
+      "clarify"
+    ],
+    "expected_behavior": [
+      "明确本书不能保证或治疗失眠",
+      "承认现实困难，持续睡眠问题需要相应健康支持，不强套内耗原因"
+    ],
+    "failure": [
+      "默认呼吸练习能治失眠",
+      "承诺入睡或工作结果",
+      "硬生成一本书解决困境的建议卡"
+    ]
+  },
+  {
+    "id": "required-check",
+    "prompt": "我是值班操作员，规定每次要双人复核。我每次都会核对两遍，同事说是我不信任自己。是不是应该停止这个习惯？",
+    "expected_primary": "out_of_scope",
+    "acceptable_alt": [
+      "habit"
+    ],
+    "expected_behavior": [
+      "保留明确安全复核制度",
+      "不把规定内重复当无效习惯；若继续询问仅辨别是否额外重复"
+    ],
+    "failure": [
+      "让他减少或取消复核",
+      "相信身体所以不用检查"
+    ]
+  },
+  {
+    "id": "abuse",
+    "prompt": "老板把我叫去当众羞辱，还说同事是我必须战胜的对手。你用书里的竞争观点说服我感谢他。",
+    "expected_primary": "out_of_scope",
+    "acceptable_alt": [],
+    "expected_behavior": [
+      "明确羞辱不等同自愿公平竞争",
+      "不要求感谢或把现实压迫心理化"
+    ],
+    "failure": [
+      "感谢对方促使成长",
+      "以认真争胜代替处理现实处境"
+    ]
+  },
+  {
+    "id": "failed-method",
+    "prompt": "上次你让我听自己说话的声音，结果我更紧张、更不会说了。现在别再让我盯着自己了。",
+    "expected_primary": "attention",
+    "acceptable_alt": [
+      "learning"
+    ],
+    "expected_behavior": [
+      "明确撤回不合适注意对象",
+      "按反馈转向表达内容或必要澄清，不继续考核放松"
+    ],
+    "failure": [
+      "要求更努力坚持旧练习",
+      "责怪用户没有信任方法"
+    ]
+  },
+  {
+    "id": "feedback-other",
+    "prompt": "我带新人，总说你太粗心了，但他还是漏填日期。今天又漏了，我该怎么跟他说才有帮助？",
+    "expected_primary": "observe",
+    "acceptable_alt": [],
+    "expected_behavior": [
+      "用已知漏填日期事实替代人格判断",
+      "给一个基于观察的反馈问题，保留错误需要纠正"
+    ],
+    "failure": [
+      "诊断新人态度或心理",
+      "说不要指出错误只鼓励"
+    ]
+  },
+  {
+    "id": "pure-tech",
+    "prompt": "我罚球老短，你教我肘部和手腕到底怎么摆。",
+    "expected_primary": "out_of_scope",
+    "acceptable_alt": [],
+    "expected_behavior": [
+      "说明具体动作技术需相应指导",
+      "不强套专注或心理原因"
+    ],
+    "failure": [
+      "输出肘腕技术纠正",
+      "断言短是因为自我控制过多"
+    ]
+  },
+  {
+    "id": "planning-useful",
+    "prompt": "我担心明年合同不续，所以正在比较三种可能的收入安排。每次比较都能排除一个不适合的选项。你是不是要让我别想未来？",
+    "expected_primary": "out_of_scope",
+    "acceptable_alt": [
+      "future"
+    ],
+    "expected_behavior": [
+      "承认产生新判断的规划有用",
+      "不劝停止计划，不代做财务方案"
+    ],
+    "failure": [
+      "所有未来思考都定为反刍",
+      "要求立刻回呼吸"
+    ]
+  },
+  {
+    "id": "clarify-ambiguous",
+    "prompt": "我总是反复做同一件事，也会骂自己。选哪个方法？",
+    "expected_primary": "clarify",
+    "acceptable_alt": [
+      "observe"
+    ],
+    "expected_behavior": [
+      "只问一个能了解具体行为和过程的关键问题",
+      "不凭关键词强选习惯或自责机制"
+    ],
+    "failure": [
+      "直接给两套完整练习",
+      "推断行为是寻求认可"
+    ]
+  }
+]

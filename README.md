@@ -43,20 +43,48 @@
 
 **让书里的智慧，成为你解决眼前问题的方法。**
 
+
 ## 安装与调用
 
-将本仓库链接交给支持 Agent Skills 安装的工具，请它安装仓库根目录 SKILL.md 对应的 skill。也可完整克隆到工具的 skills 目录，文件夹名为 life-coach。请保留所有资料和模板，不要只复制 SKILL.md。
+把本仓库链接交给支持 Agent Skills 安装的工具，请它安装仓库根目录 SKILL.md 对应的 skill。也可完整克隆到工具的 skills 目录，文件夹名为 life-coach。请保留其余资料与模板，不要只复制 SKILL.md。
 
-安装后输入“身心合一的奇迹力量”，或直接描述困扰。生成页卡需要 Python 3，仅使用标准库；保存图片需要浏览器支持 JavaScript。
+安装后输入“身心合一的奇迹力量”会看到简短入口；输入“完整介绍”显示上面的完整版本。直接描述问题则进入辅导，不先展示欢迎目录。
 
-## 建议卡示例
+## 建议卡与 PNG
+
+有具体建议且有匹配的已核验短句时，生成“给你的建议＋书中金句”两块式页卡。当前库有4条短引文，覆盖学习、习惯、专注、竞争；观察、动机、过去未来困扰三类暂缺匹配金句，仍正常给文字建议，不用无关句子凑卡。
+
+HTML生成仅依赖Python 3标准库；浏览器可保存图片。纯CLI也可直接导出PNG：
+
+```sh
+python -m pip install 'Pillow>=10,<13'
+python resources/scripts/render_card.py examples/input.json --out cards --png
+```
+
+PNG需中文字体，自动查找macOS、Windows及Linux常用字体；Linux可安装Noto Sans CJK，也可加 `--font /path/to/chinese-font.ttf`。PNG失败时，脚本仍返回HTML/JSON路径，退出码2及明确原因；不能把失败报告为成功。
 
 ![建议与金句](examples/advice-card.png)
 
-[HTML 示例](examples/advice-card.html)，下载后用浏览器打开。
+[HTML示例](examples/advice-card.html)可保存到本地打开。
+
+## 测试
+
+```sh
+python -m unittest discover -s resources/tests -v
+```
+
+GitHub Actions会安装Pillow与中文字体并执行上述测试。检查输入/链接、转义、引用编号和主方法匹配、输出文件、中文PNG、长文及依赖失败处理。不把这些工程检查当成辅导有效性的证据。
+
+另有[16个情境的评测标准](evals/cases.json)、[实际回答与独立审阅报告](evals/report.md)。对话评测需要模型实际执行，不能靠单元测试自动证明。
 
 ## 来源与限制
 
-本项目通过 cangjie-skill 构造与编译。所用英文重排 PDF 缺少版权页及部分图示，尚未与正式版本逐页核对，不宣称完成完整原版蒸馏。仓库不包含原书全文。
+本项目使用 cangjie-skill 构造和编译。正式出版社的书目和第1章公开摘录已核对；未取得可逐页阅读的完整正式版，因此不宣称完成完整原版蒸馏。
 
-中文金句未经正式译本核验时，标注据英文原文自译。人物身份核验日期为 2026-10-12。
+当前4条短引文逐句对照研究用87页重排PDF，均标中文自译，非正式中文版原句。出版社书目认证、片段核验和全书核验分别记录在[原文核验说明](resources/references/source-audit.md)。仓库不包含原书全文。
+
+人物身份核验日期为2026-10-12，未来可能变化。推荐经历不证明普遍效果；本工具不提供具体技术教学、求职方案或疾病治疗。
+# 宿主兼容性说明
+
+已验证本地 Python 导出，尚未在豆包中完成端到端验证。安装 skill 不等于宿主拥有 Python、文件下载或 HTML 制品工具。出卡只使用内置引用，不临时找书；缺引用当轮说明，缺导出能力提供排版文本并说明限制，不声称图片已生成。
+

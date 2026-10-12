@@ -30,6 +30,8 @@
 只在用户需要细分机制时，按候选ID检索方法附录对应段落，不整份加载。[f04](../../resources/evidence/learning.md#f04)、[f05](../../resources/evidence/learning.md#f05)、[f06](../../resources/evidence/learning.md#f06)、[f07](../../resources/evidence/learning.md#f07)、[f08](../../resources/evidence/learning.md#f08)、[f09](../../resources/evidence/learning.md#f09)、[f10](../../resources/evidence/learning.md#f10)、[p43](../../resources/evidence/learning.md#p43)、[p73](../../resources/evidence/learning.md#p73)。原书案例与未核技术项在附录明确区分。
 
 
+多项同时命中时，按 [路由判据](../../resources/references/routing.md) 决定主次；不连续堆叠两套练习。
+
 ## 配套资源
 
 路径相对于本文件；脚本需先检查运行条件，不因附带而自动执行。

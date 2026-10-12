@@ -30,6 +30,8 @@
 只在用户需要细分机制时，按候选ID检索方法附录对应段落，不整份加载。[f01](../../resources/evidence/observe.md#f01)、[f02](../../resources/evidence/observe.md#f02)、[f03](../../resources/evidence/observe.md#f03)、[p10](../../resources/evidence/observe.md#p10)、[p11](../../resources/evidence/observe.md#p11)、[p13](../../resources/evidence/observe.md#p13)。原书案例与未核技术项在附录明确区分。
 
 
+多项同时命中时，按 [路由判据](../../resources/references/routing.md) 决定主次；不连续堆叠两套练习。
+
 ## 配套资源
 
 路径相对于本文件；脚本需先检查运行条件，不因附带而自动执行。
@@ -43,3 +45,12 @@
 - [resources/references/book-to-help.md](../../resources/references/book-to-help.md)
 - [resources/references/welcome.md](../../resources/references/welcome.md)
 - [resources/references/people.json](../../resources/references/people.json)
+- [resources/references/routing.md](../../resources/references/routing.md)
+- [resources/references/response.md](../../resources/references/response.md)
+- [resources/references/attribution.md](../../resources/references/attribution.md)
+- [resources/references/welcome-short.md](../../resources/references/welcome-short.md)
+- [resources/references/quotes.json](../../resources/references/quotes.json)
+- [resources/references/source-audit.md](../../resources/references/source-audit.md)
+- [resources/scripts/render_png.py](../../resources/scripts/render_png.py)
+- [resources/tests/test_render.py](../../resources/tests/test_render.py)
+- [resources/tests/test_skill_resources.py](../../resources/tests/test_skill_resources.py)

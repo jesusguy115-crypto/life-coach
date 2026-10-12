@@ -1,0 +1,98 @@
+{
+  "response-01": {
+    "version": "new",
+    "case": "mixed-vague"
+  },
+  "response-02": {
+    "version": "new",
+    "case": "mixed-known"
+  },
+  "response-03": {
+    "version": "new",
+    "case": "beginner"
+  },
+  "response-04": {
+    "version": "new",
+    "case": "expert-control"
+  },
+  "response-05": {
+    "version": "new",
+    "case": "listen-attention"
+  },
+  "response-06": {
+    "version": "new",
+    "case": "motives-compete"
+  },
+  "response-07": {
+    "version": "new",
+    "case": "compete-motives"
+  },
+  "response-08": {
+    "version": "new",
+    "case": "future-label"
+  },
+  "response-09": {
+    "version": "new",
+    "case": "insomnia"
+  },
+  "response-10": {
+    "version": "new",
+    "case": "required-check"
+  },
+  "response-11": {
+    "version": "new",
+    "case": "abuse"
+  },
+  "response-12": {
+    "version": "new",
+    "case": "failed-method"
+  },
+  "response-13": {
+    "version": "new",
+    "case": "feedback-other"
+  },
+  "response-14": {
+    "version": "new",
+    "case": "pure-tech"
+  },
+  "response-15": {
+    "version": "new",
+    "case": "planning-useful"
+  },
+  "response-16": {
+    "version": "new",
+    "case": "clarify-ambiguous"
+  },
+  "response-17": {
+    "version": "old",
+    "case": "mixed-known"
+  },
+  "response-18": {
+    "version": "old",
+    "case": "beginner"
+  },
+  "response-19": {
+    "version": "old",
+    "case": "future-label"
+  },
+  "response-20": {
+    "version": "old",
+    "case": "required-check"
+  },
+  "response-21": {
+    "version": "plain",
+    "case": "mixed-known"
+  },
+  "response-22": {
+    "version": "plain",
+    "case": "beginner"
+  },
+  "response-23": {
+    "version": "plain",
+    "case": "future-label"
+  },
+  "response-24": {
+    "version": "plain",
+    "case": "required-check"
+  }
+}

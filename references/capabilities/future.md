@@ -12,7 +12,7 @@
 
 ## A2 — 触发与区分
 
-有具体反复念头、推演或烦扰妨碍眼前参与时使用。只说失业、失眠、焦虑不能判断原因，也不自动给练习；明确自我标签先observe。
+有具体反复念头、推演或烦扰妨碍眼前参与时使用。只说失业、失眠、焦虑不能判断原因，也不自动给练习；已知反复推演正妨碍行动时，即使伴随自我标签也以本卡为主；若只有标签、事实不清才先observe。
 
 ## E — 执行
 
@@ -28,6 +28,8 @@
 ## 按需补读
 
 只在用户需要细分机制时，按候选ID检索方法附录对应段落，不整份加载。[f29](../../resources/evidence/future.md#f29)、[f30](../../resources/evidence/future.md#f30)、[f31](../../resources/evidence/future.md#f31)、[f33](../../resources/evidence/future.md#f33)、[p68](../../resources/evidence/future.md#p68)。原书案例与未核技术项在附录明确区分。
+
+多项同时命中时，按 [路由判据](../../resources/references/routing.md) 决定主次；不连续堆叠两套练习。
 
 ## 配套资源
 

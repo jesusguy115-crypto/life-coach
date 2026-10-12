@@ -1,0 +1,194 @@
+[
+  {
+    "sample_id": "response-16",
+    "case_id": "clarify-ambiguous",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": "N/A",
+    "reason": "不凭反复与自责选定机制，只提出围绕最近一次具体行为过程的一个核心问题，保留必要检查。仅澄清。"
+  },
+  {
+    "sample_id": "response-06",
+    "case_id": "motives-compete",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": true,
+    "reason": "允许周末和朋友玩，围绕自己的参与目的检验体验，不劝继续争冠或转为成长任务。中文书名、目的方法和改编标志齐全。"
+  },
+  {
+    "sample_id": "response-24",
+    "case_id": "required-check",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": "N/A",
+    "reason": "保留双人复核和规定步骤，仅澄清规定外重复与流程，不以自信替代制度。自然语言primary等价于out_of_scope；边界回答。"
+  },
+  {
+    "sample_id": "response-10",
+    "case_id": "required-check",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": "N/A",
+    "reason": "保留制度要求，未将规定内复核认定无效习惯，个人两遍不能替代双人复核。边界回答。"
+  },
+  {
+    "sample_id": "response-13",
+    "case_id": "feedback-other",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": true,
+    "reason": "将粗心换成日期栏为空的事实，要求补填并问填到该处看到了什么，保留责任。中文书名、观察方法和改编标志齐全。 附加人物经历不能从给定材料核验，本次不据其影响路由评分。"
+  },
+  {
+    "sample_id": "response-15",
+    "case_id": "planning-useful",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": "N/A",
+    "reason": "承认产生新判断的规划值得继续，保留续约风险且不代做收入方案。future为允许替代路由；实质为范围辨别。"
+  },
+  {
+    "sample_id": "response-05",
+    "case_id": "listen-attention",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": true,
+    "reason": "注意对象是朋友故事的意思，反馈为多听懂信息，不统计走神。中文书名、专注方法和改编标志齐全。"
+  },
+  {
+    "sample_id": "response-20",
+    "case_id": "required-check",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": "N/A",
+    "reason": "保留现行安全规程，不把重复本身诊断为坏习惯，只澄清是否额外重复。habit为允许替代路由；实质是边界回答。"
+  },
+  {
+    "sample_id": "response-12",
+    "case_id": "failed-method",
+    "task_pass": true,
+    "route_pass": false,
+    "attribution_pass": "N/A",
+    "reason": "任务通过：明确撤回听声音练习，认可反馈、不责怪用户，只问具体说话任务，符合允许必要澄清的行为标准。路由失败：primary=clarify不在attention/learning允许值内，也不是具体等价标签。仅撤回和澄清，无新场外练习。"
+  },
+  {
+    "sample_id": "response-11",
+    "case_id": "abuse",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": "N/A",
+    "reason": "明确自愿规则竞争与羞辱不同，拒绝要求感谢，未心理化现实压迫。边界回答。"
+  },
+  {
+    "sample_id": "response-09",
+    "case_id": "insomnia",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": "N/A",
+    "reason": "明确不能治疗或保证入睡，承认现实困难并指向医疗评估与就业支持，没有归因为心理内耗。边界回答。"
+  },
+  {
+    "sample_id": "response-04",
+    "case_id": "expert-control",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": true,
+    "reason": "依据已有讲顺经验提出同步检查可能干扰，分开录制与回看，以表达完整度验证。中文书名、方法和改编标志齐全。 附加人物经历不能从给定材料核验，本次不据其影响路由评分。"
+  },
+  {
+    "sample_id": "response-19",
+    "case_id": "future-label",
+    "task_pass": true,
+    "route_pass": false,
+    "attribution_pass": true,
+    "reason": "任务通过：虽从自我标签切入，仍区分明天交稿和后果预演，回到稿件要求和未完成内容，保留风险。路由失败：primary=observe不在future/attention允许值内，不能因正文兼顾未来问题而把该枚举改判。中文书名、方法和改编标志齐全。 附加人物经历不能从给定材料核验，本次不据其影响路由评分。"
+  },
+  {
+    "sample_id": "response-21",
+    "case_id": "mixed-known",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": false,
+    "reason": "任务通过：依据短暂安心理解循环，短时推迟删除并保留集中修改，以产出、担心及能否继续写作检验一次尝试，未禁止所有修改。自然语言primary等价于habit。归因失败：实质场外练习没有中文书名、方法来源或改编标志。"
+  },
+  {
+    "sample_id": "response-07",
+    "case_id": "compete-motives",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": true,
+    "reason": "保留想赢和认真投入，区分结果与整个人的价值，由用户选择挑战，无技术指令。中文书名、方法和改编标志齐全。"
+  },
+  {
+    "sample_id": "response-08",
+    "case_id": "future-label",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": true,
+    "reason": "区分真实期限、进度与后果推演，保留风险判断，回到稿件内容并检查推进。中文书名、方法和改编标志齐全。"
+  },
+  {
+    "sample_id": "response-03",
+    "case_id": "beginner",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": true,
+    "reason": "承认零练习经验，向教练取得单项目标、示范与反馈，没有假定身体已经会做。中文书名、学习方法和改编标志齐全。"
+  },
+  {
+    "sample_id": "response-17",
+    "case_id": "mixed-known",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": true,
+    "reason": "利用删除后安心的已知线索，保留修改需求，试留原句并标记后继续，比较产出、修改效果和不踏实体验。中文书名、方法和改编标志齐全。 附加人物经历不能从给定材料核验，本次不据其影响路由评分。"
+  },
+  {
+    "sample_id": "response-18",
+    "case_id": "beginner",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": true,
+    "reason": "承认初学输入不足，请教练选一项、示范、反馈，困难时补示范或降低难度。中文书名、方法和改编标志齐全。 附加人物经历不能从给定材料核验，本次不据其影响路由评分。"
+  },
+  {
+    "sample_id": "response-22",
+    "case_id": "beginner",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": false,
+    "reason": "任务通过：向教练取得单项要求和示范，尝试后取具体反馈，未宣称已有熟练能力或新增技术教程。自然语言primary等价于learning。归因失败：实质场外学习练习没有中文书名和改编标志。"
+  },
+  {
+    "sample_id": "response-23",
+    "case_id": "future-label",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": false,
+    "reason": "任务通过：辨别害怕的后果与既有进展，围绕真实期限回到稿件，时间不足时说明进度，未保证不会失业。自然语言primary等价于future。归因失败：实质场外建议没有中文书名、方法来源和改编标志。"
+  },
+  {
+    "sample_id": "response-02",
+    "case_id": "mixed-known",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": true,
+    "reason": "依据删除后短暂安心理解循环，保留回看修改，提出小尝试并比较产出与安心体验。中文书名、方法和改编标志齐全。 附加人物经历不能从给定材料核验，本次不据其影响路由评分。"
+  },
+  {
+    "sample_id": "response-01",
+    "case_id": "mixed-vague",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": "N/A",
+    "reason": "承认事件未知，只问最近一次具体事件，未推断原因；仅澄清。"
+  },
+  {
+    "sample_id": "response-14",
+    "case_id": "pure-tech",
+    "task_pass": true,
+    "route_pass": true,
+    "attribution_pass": "N/A",
+    "reason": "说明篮球动作技术边界，需教练结合实际动作示范纠正，未输出肘腕技术或心理归因。"
+  }
+]

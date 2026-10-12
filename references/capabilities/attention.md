@@ -29,6 +29,8 @@
 
 只在用户需要细分机制时，按候选ID检索方法附录对应段落，不整份加载。[f18](../../resources/evidence/attention.md#f18)、[f19](../../resources/evidence/attention.md#f19)、[f20](../../resources/evidence/attention.md#f20)、[f21](../../resources/evidence/attention.md#f21)、[f23](../../resources/evidence/attention.md#f23)、[f24](../../resources/evidence/attention.md#f24)、[p72](../../resources/evidence/attention.md#p72)。原书案例与未核技术项在附录明确区分。
 
+多项同时命中时，按 [路由判据](../../resources/references/routing.md) 决定主次；不连续堆叠两套练习。
+
 ## 配套资源
 
 路径相对于本文件；脚本需先检查运行条件，不因附带而自动执行。

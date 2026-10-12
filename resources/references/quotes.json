@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "source": {
+    "id": "research-reflow-87",
+    "url": "https://coachingspaceinstitute.com/wp-content/uploads/2020/08/Timothy-Gallwey-The-Inner-Game-of-Tennis.pdf",
+    "sha256": "e10c1e600302e01ca59a5a1ddd801ed02ac69888dfc4087615badde6022348a7",
+    "edition": "缺版权页的87页重排本，具体版次未认证",
+    "full_book_verified": false
+  },
+  "quotes": [
+    {
+      "id": "learning-trust",
+      "domains": [
+        "learning"
+      ],
+      "original": "Trust thyself.",
+      "quote": "信任自己。",
+      "chapter": 4,
+      "pdf_page": 23,
+      "locator": "第4章 · 研究用重排PDF第23页",
+      "translation": "据英文原文自译，非中文版原句",
+      "use_when": "信任已有的学习与执行能力，且仍保留示范、练习与反馈。",
+      "avoid": "不适用于缺基本输入而要求直接成功，不保证结果。",
+      "quote_kind": "short_maxim",
+      "verification": "checked_against_reflowed_text",
+      "formal_edition_verified": false,
+      "source_id": "research-reflow-87",
+      "verified_on": "2026-10-12"
+    },
+    {
+      "id": "habit-past",
+      "domains": [
+        "habit"
+      ],
+      "original": "Habits are statements about the past, and the past is gone.",
+      "quote": "习惯说的是过去，而过去已经过去了。",
+      "chapter": 6,
+      "pdf_page": 42,
+      "locator": "第6章 · 研究用重排PDF第42页",
+      "translation": "据英文原文自译，非中文版原句",
+      "use_when": "已看清重复的旧做法，准备尝试新的做法；尤其适合把旧习惯当作不可改变身份的情境。",
+      "avoid": "不表示不用练习、不必复盘或历史条件不存在。",
+      "quote_kind": "sentence",
+      "verification": "checked_against_reflowed_text",
+      "formal_edition_verified": false,
+      "source_id": "research-reflow-87",
+      "verified_on": "2026-10-12"
+    },
+    {
+      "id": "attention-interest",
+      "domains": [
+        "attention"
+      ],
+      "original": "Concentration is fascination of mind.",
+      "quote": "专注，是心被吸引。",
+      "chapter": 7,
+      "pdf_page": 51,
+      "locator": "第7章 · 研究用重排PDF第51页",
+      "translation": "据英文原文自译，非中文版原句",
+      "use_when": "注意偏离当前任务，准备通过兴趣、好奇或具体信息重新投入；不要求用户先出现紧绷。",
+      "avoid": "不能保证无趣任务自动变有趣，也不要求放弃必要任务。",
+      "quote_kind": "sentence",
+      "verification": "checked_against_reflowed_text",
+      "formal_edition_verified": false,
+      "source_id": "research-reflow-87",
+      "verified_on": "2026-10-12"
+    },
+    {
+      "id": "competition-cooperation",
+      "domains": [
+        "competition"
+      ],
+      "original": "true competition is identical with true cooperation",
+      "quote": "真正的竞争，也是真正的合作。",
+      "chapter": 9,
+      "pdf_page": 73,
+      "locator": "第9章 · 研究用重排PDF第73页（节选）",
+      "translation": "据英文原文自译，非中文版原句",
+      "use_when": "公平、自愿的竞争，双方认真投入提供挑战。",
+      "avoid": "不可用于羞辱、欺凌、剥削或一方没有选择的处境。",
+      "quote_kind": "continuous_excerpt",
+      "verification": "checked_against_reflowed_text",
+      "formal_edition_verified": false,
+      "source_id": "research-reflow-87",
+      "verified_on": "2026-10-12"
+    }
+  ],
+  "coverage": {
+    "observe": [],
+    "learning": [
+      "learning-trust"
+    ],
+    "habit": [
+      "habit-past"
+    ],
+    "attention": [
+      "attention-interest"
+    ],
+    "motives": [],
+    "competition": [
+      "competition-cooperation"
+    ],
+    "future": []
+  },
+  "limits": "4条短引文仅经重排本逐句对照；3域暂无匹配金句。不以无关句子凑卡，不声称正式中文版已核验。"
+}
