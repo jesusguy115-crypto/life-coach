@@ -9,7 +9,7 @@ metadata:
   cangjie.capability-count: 7
   cangjie.entrypoint-count: 1
 ---
-# 人生教练 · 篮坛巨编｜身心合一的奇迹力量 — 全书能力入口
+# 身心合一的奇迹力量 — 全书能力入口
 
 ## 触发与不触发
 
