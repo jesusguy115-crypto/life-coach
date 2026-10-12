@@ -26,14 +26,14 @@
     "resources/references/card.md": "4522fe1a08bde4185de679a1519994b970b77261669cf44866c57dca0c9d918d",
     "resources/references/cases.json": "ab0d8c80fa62de29abf82caeb06bd4c09792eb1a01ae5048eefa31e9aae083c6",
     "resources/references/people.json": "2381106bfc34dc2dcca9eddadc54017b6a5b3c855da288f7955314b25e69d9d9",
-    "resources/references/welcome.md": "63ce698a344a160175c43390950d816cb6290dad28a90942c13e2fee09dc74bc",
+    "resources/references/welcome.md": "ad6205e9999cf2028d2a0ae1376ee00ef66dd4b17db7ee047bafec7c90a72120",
     "resources/scripts/render_card.py": "20845a673671f4d8c61b510a8bcc4bb3afd7287295c6f13645a276b6005fe2a3"
   },
   "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
   "bundle_id": "bundle.inner-game",
   "bundle_sha256": "2638ef5f891ed5274d2e48a47c7c5082c5a5a63794a5107fc46abc71f177399b",
   "variant": "single",
-  "run_id": "run-20261012-212447-ad6e78",
+  "run_id": "run-20261012-213547-29af73",
   "decision": {
     "schema_version": 1,
     "requested": "single",
